@@ -93,9 +93,6 @@ class GATracking extends Widget
         foreach ($this->plugins as $plugin => &$options) {
             $options = json_encode($options);
         }
-        foreach ($this->events as $event => &$options) {
-            $options = json_encode($options);
-        }
 
         $this->_viewParams = [
             'omitScriptTag' => $this->omitScriptTag,
