@@ -35,12 +35,6 @@ class GATracking extends Widget
     public $trackingConfig = 'auto';
 
     /**
-     * Anonymize the IP address of the hit (http request) sent to GA.
-     * @var bool
-     */
-    public $anonymizeIp = true;
-
-    /**
      * Output debug information to the console.
      * @var bool
      */
