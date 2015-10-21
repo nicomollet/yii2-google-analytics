@@ -83,7 +83,6 @@ class GATracking extends Widget
         }
 
         $this->trackingConfig = json_encode($this->trackingConfig);
-        $this->anonymizeIp = json_encode($this->anonymizeIp);
         foreach ($this->plugins as $plugin => &$options) {
             $options = json_encode($options);
         }
