@@ -89,7 +89,6 @@ class GATracking extends Widget
             'trackingFilename' => $this->_trackingFilename,
             'trackingDebugTraceInit' => $this->_trackingDebugTraceInit,
             'fields' => [
-                'anonymizeIp' => $this->anonymizeIp
                 // :TODO: Add more params
             ],
             // :TODO: Add availability to configure events
